@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="w-full text-white bg-blue-500 p-4">
+    <footer className="w-full text-white bg-blue-500 p-4 sticky bottom-0">
       <div className="container mx-auto">
         <div className="flex flex-col items-center">
           <p>© 2025 StudentHub. All rights reserved.</p>
