@@ -59,7 +59,7 @@ function ContactPage() {
   };
 
   return (
-    <div className="h-[calc(100vh-212px)] w-full bg-gray-50 py-12">
+    <div className="h-[calc(100vh-212px)] w-full bg-gray-50 py-12 mb-12">
       <div className="container mx-auto px-4">
         <h1 className="text-3xl font-bold text-center text-blue-600 mb-8">Contact Us</h1>
         <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-md p-8">
