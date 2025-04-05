@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Pacifico } from "next/font/google";
+import Link from "next/link";
 
 const pacifico = Pacifico({
   subsets: ["latin"],
@@ -18,9 +19,11 @@ function Landing() {
         >
           our Priority
         </span>
-        <Button variant={"default"} className="mt-10" size={"lg"}>
-          Sign Up
-        </Button>
+        <Link href="https://studenthub.andreipau.me">
+          <Button variant={"default"} className="mt-10" size={"lg"}>
+            Sign Up
+          </Button>
+        </Link>
       </div>
     </section>
   );

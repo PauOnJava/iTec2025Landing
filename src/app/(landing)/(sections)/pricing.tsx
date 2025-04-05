@@ -1,6 +1,8 @@
 import { Users, BookOpen, MessageSquare, Star, Check } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
+
 
 function Pricing() {
   return(
@@ -33,9 +35,11 @@ function Pricing() {
             ))}
           </ul>
           <div className="mt-8 text-center">
+            <Link href="https://studenthub.andreipau.me">
             <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 w-full">
               Get Started
             </Button>
+            </Link>
           </div>
         </CardContent>
       </Card>
